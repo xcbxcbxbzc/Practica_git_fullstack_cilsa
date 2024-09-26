@@ -57,37 +57,37 @@ input{
 
 /* Estilo claro */
 body.light-mode {
-    background-color: rgb(190, 252, 226);
-    color: rgb(65, 85, 97);
+    background-color: rgb(217, 190, 252);
+    color: rgb(36, 44, 85);
 }
 
 body.light-mode .form {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 189, 246);
 }
 
 body.light-mode input {
-    background-color: rgb(219, 248, 246);
-    color: rgb(73, 68, 68);
+    background-color: rgb(245, 227, 242);
+    color: rgb(6, 7, 7);
 }
 
 body.light-mode ::placeholder {
-    color: rgb(73, 68, 68);
+    color: rgb(10, 9, 9);
 }
 
 body.light-mode .btn-enviar {
-    background-color: rgb(65, 85, 97);
-    color: rgb(255, 255, 255);
+    background-color: rgb(206, 152, 250);
+    color: rgb(15, 15, 15);
 }
 
 body.light-mode .btn-style {
-    background-color: rgb(65, 85, 97);
-    color: rgb(255, 255, 255);
+    background-color:rgb(193, 123, 250) ;
+    color: rgb(10, 9, 9);
 }
 
 /* Estilo oscuro */
 body.dark-mode {
     background-color: rgb(0, 0, 0);
-    color: rgb(167, 247, 136);
+    color: rgb(117, 248, 231);
 }
 
 body.dark-mode .form {
@@ -95,18 +95,20 @@ body.dark-mode .form {
 }
 
 body.dark-mode input {
-    background-color: rgb(59, 73, 73);
-    color: rgb(255, 255, 255);
+    background-color: rgb(38, 11, 156);
+    color: rgb(253, 251, 251);
 }
 
 body.dark-mode ::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 254, 255);
 }
 
 body.dark-mode .btn-enviar {
-    background-color: rgb(167, 247, 136);
+    background-color:rgb(38, 11, 156);
+    color:white;
 }
 
 body.dark-mode .btn-style {
-    background-color: rgb(167, 247, 136);
+    background-color: rgb(38, 11, 156);
+    color:rgb(253, 250, 250);
 }
